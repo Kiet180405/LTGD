@@ -34,8 +34,8 @@ public class DemoJTable extends JFrame{
         //Tao JTable
         String[] columnName={"Ten tai khoan","So tien"};
         Object[][] data=new Object[][]{
-            {"Nguyen Xuan Truong",34000000},
-            {"Nguyen Tuan An",36000000}
+            {"Nguyen Xuan Kiet",34000000},
+            {"Nguyen Thi Hoa",36000000}
         };
         DefaultTableModel model=new DefaultTableModel(data,columnName);
         tblTaiKhoan=new JTable(model);
